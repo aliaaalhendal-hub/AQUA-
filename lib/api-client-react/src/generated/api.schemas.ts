@@ -38,3 +38,4 @@ export interface AquaProductFeed {
   sourceUrl: string;
   fetchedAt: string;
 }
+

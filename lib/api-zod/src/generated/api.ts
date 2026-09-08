@@ -35,3 +35,5 @@ export const ListAquaProductsResponse = zod.object({
   "sourceUrl": zod.string().url(),
   "fetchedAt": zod.coerce.date()
 })
+
+

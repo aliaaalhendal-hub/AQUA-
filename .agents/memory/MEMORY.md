@@ -1,0 +1,1 @@
+- [AQUA commerce boundary](aqua-commerce-boundary.md) — retailer listings stay comparison-only; Stripe currently sells only a labeled test item.
