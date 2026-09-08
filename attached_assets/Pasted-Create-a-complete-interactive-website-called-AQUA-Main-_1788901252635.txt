@@ -1,0 +1,857 @@
+Create a complete interactive website called:
+
+AQUA
+
+Main slogan:
+“Build a world beneath the surface.”
+
+IMPORTANT:
+For this first stage, focus on creating the website itself, its visual identity, navigation, interactive aquarium experience, animal discovery system, aquarium builder, habitat information, compatibility checker, product/store comparison, and demo shopping experience.
+
+Do NOT integrate Stripe, GitHub, Render, Vercel, or Antigravity yet.
+We will connect these services later.
+
+Do not create fake API integrations or fake payment processing.
+
+The website should already be structured cleanly so backend services and real data can be connected later.
+
+==================================================
+THE CONCEPT
+==================================================
+
+AQUA is an interactive digital aquarium and aquarium planning platform.
+
+It combines:
+
+1. An immersive underwater exploration experience.
+2. A catalog of aquarium animals.
+3. Detailed care and habitat requirements.
+4. Aquarium setup recommendations.
+5. Fish and animal compatibility checking.
+6. Aquarium building and planning.
+7. Aquarium tanks, equipment and supplies.
+8. Kuwait store and price comparison.
+9. Complete habitat/setup cost estimates.
+
+The goal is NOT simply to sell fish.
+
+The website should help users understand:
+
+“What does this animal actually need before I buy it?”
+
+The experience should encourage responsible aquarium ownership.
+
+==================================================
+VISUAL DIRECTION
+==================================================
+
+THIS IS EXTREMELY IMPORTANT.
+
+Do NOT make this look like:
+- a normal ecommerce website
+- a pet store website
+- a generic blue corporate website
+- a dark navy tech website
+- an AI/robot website
+- a gaming website
+- a luxury/classic website
+- a fashion website
+- a dashboard
+- a basic landing page
+
+The WEBSITE ITSELF should feel like an aquarium.
+
+The user should feel like they are entering an underwater world.
+
+Visual style:
+
+DREAMY DIGITAL AQUARIUM
++
+SOFT UNDERWATER WORLD
++
+MODERN INTERACTIVE EXPERIENCE
+
+Use a beautiful aquatic palette such as:
+- light aqua
+- clear turquoise
+- seafoam
+- soft ocean blue
+- translucent white
+- coral peach
+- subtle lilac
+- sandy cream
+
+The opening experience should be LIGHT and magical.
+
+Do NOT immediately use very dark navy backgrounds.
+
+As the user scrolls deeper into the ocean, colors can gradually become deeper.
+
+Use:
+- animated water light reflections
+- subtle bubbles
+- floating particles
+- translucent water layers
+- soft caustic light patterns
+- coral silhouettes
+- underwater plants
+- jellyfish
+- fish silhouettes
+- subtle depth blur
+
+Do not overcrowd the screen.
+
+Avoid cartoon fish.
+
+The animals should feel beautiful, natural and modern.
+
+==================================================
+UNDERWATER MOTION
+==================================================
+
+Motion is a major part of the design.
+
+Use lightweight CSS/JS animation rather than heavy 3D.
+
+Create effects such as:
+
+- fish slowly swimming across sections
+- jellyfish gently floating
+- bubbles rising
+- plants moving slightly
+- soft water light moving across the background
+- floating particles
+- subtle parallax
+- elements drifting gently
+- water ripple feedback when clicking
+
+When the user scrolls down, create the feeling of DIVING DEEPER.
+
+The website should visually transition through:
+
+SURFACE
+↓
+SHALLOW WATER
+↓
+CORAL REEF
+↓
+OPEN WATER
+↓
+DEEP SEA
+
+Each level should have a slightly different atmosphere.
+
+Do not sacrifice performance for animation.
+
+==================================================
+OPENING / HOME PAGE
+==================================================
+
+DO NOT create a traditional navbar + hero image + cards layout.
+
+The first screen should feel like the user is looking directly into an aquarium.
+
+Show a subtle AQUA wordmark.
+
+Center:
+
+AQUA
+
+“Build a world beneath the surface.”
+
+Then:
+
+DIVE IN ↓
+
+Behind the text:
+- moving water light
+- subtle swimming fish
+- bubbles
+- aquatic plants or coral near the edges
+
+When DIVE IN is clicked, create a smooth transition that feels like moving deeper underwater.
+
+Then introduce:
+
+“What are you looking for?”
+
+Allow the user to choose:
+
+EXPLORE LIFE
+Discover aquarium animals.
+
+BUILD AN AQUARIUM
+Create the right habitat.
+
+CAN I ADD THIS?
+Check whether an animal can live in an existing aquarium.
+
+SHOP
+Find tanks, equipment and supplies.
+
+Do not present these as four boring rectangular cards.
+
+Make them feel like floating underwater objects/bubbles/areas.
+
+==================================================
+EXPLORE LIFE
+==================================================
+
+Create an interactive animal discovery experience.
+
+Do NOT initially show animals as a normal product grid.
+
+Create an aquarium environment containing clickable animals.
+
+Example animals:
+
+- Betta
+- Guppy
+- Neon Tetra
+- Goldfish
+- Clownfish
+- Angelfish
+- Discus
+- Shrimp
+- Snail
+- Seahorse
+- Jellyfish
+
+Include both freshwater and saltwater examples.
+
+When the user hovers over or selects an animal, bring it visually forward and show its name.
+
+When clicked, open the animal profile.
+
+==================================================
+ANIMAL PROFILE
+==================================================
+
+Each animal should have a beautiful immersive profile.
+
+Example:
+
+CLOWNFISH
+
+Show a large visual of the animal.
+
+Include:
+
+ENVIRONMENT
+Saltwater
+
+CARE LEVEL
+Beginner / Intermediate / Advanced
+
+MINIMUM TANK SIZE
+Example value
+
+TEMPERATURE
+Recommended range
+
+PH RANGE
+Recommended range
+
+DIET
+What it eats
+
+ADULT SIZE
+Expected size
+
+LIFESPAN
+Expected lifespan
+
+SOCIAL BEHAVIOR
+Peaceful / Semi-aggressive / Aggressive etc.
+
+CARE NOTES
+Short important information.
+
+Include:
+
+COMPATIBLE WITH
+
+and
+
+AVOID WITH
+
+IMPORTANT:
+Use realistic demo care information, but clearly structure the data so it can later be replaced with verified information.
+
+Do not encourage keeping an animal in an unsuitable tank.
+
+==================================================
+PRICE & AVAILABILITY
+==================================================
+
+Animal profiles should also have a section:
+
+PRICE & AVAILABILITY
+
+For now use clearly labeled DEMO DATA.
+
+Show:
+
+Typical price range in Kuwait
+
+and example aquarium stores.
+
+Do NOT claim demo prices are live.
+
+The layout should be designed so later we can connect real store information and current prices.
+
+Include:
+
+COMPARE PRICES →
+
+==================================================
+BUILD ITS HOME
+==================================================
+
+This is one of the most important features.
+
+On every animal page include a large action:
+
+BUILD ITS HOME
+
+When clicked, create a recommended aquarium setup specifically for that animal.
+
+Example:
+
+YOUR CLOWNFISH HOME
+
+SALTWATER SETUP
+
+Then calculate/show the recommended categories:
+
+TANK
+FILTER
+HEATER
+LIGHTING
+SUBSTRATE
+ROCK / DECOR
+WATER CONDITIONING
+TESTING EQUIPMENT
+FOOD
+OTHER REQUIRED EQUIPMENT
+
+For every item show:
+
+WHY YOU NEED IT
+
+and
+
+RECOMMENDED SPECIFICATION
+
+Example:
+
+TANK
+Minimum recommended capacity: XX L
+
+HEATER
+Recommended temperature range: XX–XX°C
+
+Do not recommend a tank smaller than the animal's care requirements.
+
+==================================================
+COMPLETE SETUP
+==================================================
+
+After building the habitat show:
+
+YOUR COMPLETE SETUP
+
+Example visual:
+
+Tank
++
+Filter
++
+Heater
++
+Light
++
+Substrate
++
+Decor
++
+Food
++
+Water care
+
+Then show:
+
+ESTIMATED SETUP COST
+
+Example:
+
+Animal:
+XX KD
+
+Habitat:
+XX KD
+
+Equipment:
+XX KD
+
+Supplies:
+XX KD
+
+ESTIMATED TOTAL:
+XX KD
+
+Clearly label all current prices as DEMO until real store data is connected.
+
+==================================================
+BUILD AN AQUARIUM
+==================================================
+
+Create a separate aquarium builder.
+
+Start with:
+
+“What kind of world are you building?”
+
+Options:
+
+FRESHWATER
+
+PLANTED
+
+SALTWATER
+
+REEF
+
+Then:
+
+Choose tank size:
+
+20 L
+50 L
+100 L
+200 L
+CUSTOM
+
+For custom:
+allow width, depth and height.
+
+Then visually create an aquarium.
+
+Allow the user to choose:
+
+SUBSTRATE
+
+ROCKS
+
+WOOD
+
+PLANTS
+
+CORAL where appropriate
+
+DECOR
+
+LIGHTING
+
+FILTER
+
+HEATER
+
+The aquarium preview should visually change as selections are made.
+
+It does not need to be heavy 3D.
+
+Use layered illustrations/images and animation.
+
+==================================================
+CHOOSE YOUR ANIMALS
+==================================================
+
+After the habitat is selected, suggest animals suitable for that environment.
+
+Example:
+
+GOOD FOR YOUR AQUARIUM
+
+Show compatible species.
+
+If an animal is unsuitable, explain why.
+
+Examples:
+
+TANK TOO SMALL
+
+WRONG WATER TYPE
+
+TEMPERATURE MISMATCH
+
+AGGRESSIVE WITH SELECTED SPECIES
+
+SPECIAL CARE REQUIRED
+
+The website should prioritize animal welfare over simply recommending more animals.
+
+==================================================
+CAN I ADD THIS?
+==================================================
+
+Create a compatibility checker.
+
+Headline:
+
+“Can they live together?”
+
+Allow the user to enter:
+
+CURRENT TANK
+
+Tank size
+
+Freshwater / Saltwater
+
+Temperature
+
+Existing animals
+
+Then:
+
+ANIMAL I WANT TO ADD
+
+Choose an animal.
+
+Generate a visual result.
+
+Possible results:
+
+GREAT MATCH ✓
+
+POSSIBLE WITH CAUTION
+
+NOT A GOOD MATCH ✕
+
+Explain WHY.
+
+Check factors such as:
+
+- water type
+- tank size
+- temperature
+- temperament
+- adult size
+- social needs
+
+Example:
+
+NOT A GOOD MATCH
+
+“Your aquarium is too small for this species at its adult size.”
+
+Make this result visually beautiful and easy to understand.
+
+==================================================
+SHOP
+==================================================
+
+Create an aquarium supplies marketplace/catalog.
+
+Categories:
+
+AQUARIUMS
+
+FILTERS
+
+LIGHTING
+
+HEATERS
+
+SUBSTRATE
+
+PLANTS
+
+DECOR
+
+WATER CARE
+
+TESTING
+
+FOOD
+
+TOOLS
+
+Do not design this as a generic ecommerce grid.
+
+Keep the underwater AQUA visual identity.
+
+Products can float visually inside soft aquatic sections.
+
+==================================================
+KUWAIT STORE COMPARISON
+==================================================
+
+Create a demo price comparison system.
+
+IMPORTANT:
+Use DEMO DATA only for now.
+
+Later we will connect real Kuwait stores and real prices.
+
+Example:
+
+50L AQUARIUM
+
+STORE A
+18.900 KD
+
+STORE B
+21.500 KD
+
+STORE C
+16.900 KD
+BEST PRICE
+
+Allow sorting by:
+
+LOWEST PRICE
+
+BEST VALUE
+
+ONE-STORE SETUP
+
+==================================================
+CHEAPEST COMPLETE AQUARIUM
+==================================================
+
+Create a feature that compares the TOTAL aquarium setup.
+
+Example:
+
+CHEAPEST COMBINATION
+
+Tank — Store A
+Filter — Store B
+Heater — Store B
+Light — Store C
+Substrate — Store A
+
+TOTAL:
+XX KD
+
+YOU SAVE:
+XX KD
+
+Then compare:
+
+BUY EVERYTHING FROM ONE STORE
+
+TOTAL:
+XX KD
+
+This should help users decide whether splitting purchases between stores is worth it.
+
+==================================================
+MY AQUARIUM
+==================================================
+
+Create a saved aquarium area.
+
+Users can save a demo aquarium.
+
+Show:
+
+MY AQUARIUM
+
+50L Freshwater
+
+Animals:
+- Guppy x4
+- Neon Tetra x6
+
+Equipment:
+- filter
+- heater
+- lighting
+
+Show environmental status visually:
+
+TEMPERATURE
+GOOD
+
+PH
+GOOD
+
+STOCKING
+GOOD
+
+COMPATIBILITY
+GOOD
+
+Also allow:
+
+ADD AN ANIMAL
+
+CHECK COMPATIBILITY
+
+VIEW SHOPPING LIST
+
+==================================================
+WATER CHECK
+==================================================
+
+Add a simple aquarium water checker.
+
+Allow the user to enter:
+
+Temperature
+
+pH
+
+Ammonia
+
+Nitrite
+
+Nitrate
+
+Then show a clear visual status.
+
+Examples:
+
+WATER LOOKS GOOD ✓
+
+or
+
+ATTENTION NEEDED
+
+Highlight which measurement may be outside the selected aquarium's target range.
+
+Do not give dangerous or overly confident instructions.
+Encourage verification of water parameters when appropriate.
+
+==================================================
+VISUAL NAVIGATION
+==================================================
+
+Keep traditional navigation minimal.
+
+Main destinations:
+
+EXPLORE
+BUILD
+COMPATIBILITY
+SHOP
+MY AQUARIUM
+
+But integrate navigation into the underwater experience whenever possible.
+
+The user should feel like they are exploring a WORLD rather than browsing ordinary pages.
+
+==================================================
+RESPONSIVE EXPERIENCE
+==================================================
+
+Make everything responsive.
+
+Desktop should feel immersive and cinematic.
+
+Mobile should still feel underwater but must remain easy to use.
+
+Avoid:
+- overlapping text
+- tiny controls
+- excessive animations
+- slow performance
+
+==================================================
+DEMO DATA
+==================================================
+
+Create enough realistic demo content that every feature can be tested.
+
+Include several freshwater and saltwater species.
+
+Include demo tanks and equipment.
+
+Include demo Kuwait-style prices in KD.
+
+VERY IMPORTANT:
+
+Clearly mark store prices and animal prices as:
+
+“Demo price”
+
+Do not present them as current live prices.
+
+Later these will be replaced with real store data.
+
+==================================================
+TECHNICAL STRUCTURE
+==================================================
+
+Build the code with reusable components.
+
+Keep separate data structures for:
+
+animals
+care requirements
+compatibility
+products
+stores
+prices
+aquarium setups
+
+This is important because real APIs/databases will be connected later.
+
+Forms and buttons must work.
+
+Navigation must work.
+
+Aquarium builder selections must work.
+
+Compatibility checker must work with demo data.
+
+Water checker must work with demo data.
+
+Price comparison sorting must work.
+
+Saved aquarium can use local state/local storage for this first version.
+
+==================================================
+DO NOT ADD YET
+==================================================
+
+Do NOT add:
+
+Stripe
+GitHub integration
+Render deployment
+Vercel deployment
+Antigravity integration
+
+Do not create fake versions of these.
+
+They will be added in later stages.
+
+==================================================
+FINAL DESIGN PRIORITY
+==================================================
+
+The most important instruction:
+
+DO NOT make this look like a website with an ocean background.
+
+MAKE THE WEBSITE FEEL LIKE THE USER IS ACTUALLY INSIDE AN AQUARIUM.
+
+Use depth, movement, water light, bubbles, floating animals, layered environments and scroll transitions.
+
+The experience should feel:
+
+soft
+dreamy
+interactive
+alive
+modern
+unexpected
+
+but still be easy to use.
+
+AQUA
+“Build a world beneath the surface.”

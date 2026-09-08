@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/aqua/"
+title = "AQUA"
+description = "An immersive aquarium planning experience for discovering aquatic animals, building responsible habitats, checking compatibility, comparing demo Kuwait prices, and managing a saved aquarium."
+version = "1.0.0"
+id = "artifacts/aqua"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/aqua/" ]
+localPort = 26219
+
+[services.development]
+run = "pnpm --filter @workspace/aqua run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/aqua", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/aqua/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26219"
+BASE_PATH = "/aqua/"
