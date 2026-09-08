@@ -1,0 +1,518 @@
+Build a complete modern web application called:
+
+FIX & BUILD
+
+Main slogan:
+“Don’t just imagine it. Build it.”
+
+IMPORTANT:
+For this first stage, focus ONLY on building the website experience, design, navigation, interactions, and core user flow.
+
+Do NOT add Stripe, deployment setup, GitHub automation, Vercel, Render, or Antigravity yet.
+We will connect those later after the core website is finished.
+
+This must NOT look like a generic landing page.
+It should feel like a real interactive product.
+
+--------------------------------------------------
+CORE IDEA
+--------------------------------------------------
+
+FIX & BUILD helps users do three things:
+
+1. FIX IT
+Diagnose something broken and understand what is needed to repair it.
+
+2. BUILD IT
+Describe something they want to build and receive a project plan with suggested materials, tools, and steps.
+
+3. STUDIO
+A dedicated mode for architecture and design students to plan physical models, presentation projects, prototypes, and material-based university work.
+
+For now, the website can use realistic demo data.
+Do NOT create fake live integrations.
+
+--------------------------------------------------
+VISUAL STYLE
+--------------------------------------------------
+
+The design must feel completely different from:
+- luxury fashion websites
+- AYLA style
+- classic/elegant layouts
+- navy or black tech websites
+- AI/robot interfaces
+- gaming websites
+- corporate construction websites
+
+Visual direction:
+
+SOFT WORKSHOP / CREATIVE MAKER STUDIO
+
+Use:
+- warm milky cream
+- warm off-white
+- soft butter yellow
+- muted sage green
+- dusty coral
+- powder blue
+
+Keep the palette soft, clean, modern and creative.
+
+DO NOT use:
+- navy blue
+- black futuristic backgrounds
+- neon green
+- purple AI gradients
+- heavy glassmorphism
+- luxury serif typography
+- generic SaaS dashboard layouts
+- excessive 3D
+- boring card grids
+
+Typography:
+Use a bold but friendly rounded sans-serif font.
+
+Use small handwritten-style annotations only for:
+- measurements
+- arrows
+- labels
+- notes
+- material callouts
+
+The interface should feel like:
+a modern workshop table +
+an architectural sketchbook +
+a clean creative studio.
+
+Use irregular but intentional layouts.
+
+Design elements can include:
+- measuring tape
+- screws
+- paint can
+- ruler
+- wood pieces
+- pencil
+- paper layers
+- tape
+- architectural measurement marks
+- sketch-style arrows
+- tool silhouettes
+
+These objects should feel integrated into the page.
+
+--------------------------------------------------
+MOTION
+--------------------------------------------------
+
+Use subtle lightweight motion.
+
+Examples:
+- measuring tape extends slightly
+- screw rotates on hover
+- wood pieces align
+- measurement lines animate in
+- materials slide onto a virtual workbench
+- an object visually repairs itself
+
+Do not make the experience heavily 3D.
+
+--------------------------------------------------
+HOME PAGE
+--------------------------------------------------
+
+Do NOT create a traditional hero section with a big stock image and basic CTA.
+
+Create a more interactive opening screen.
+
+Show the FIX & BUILD wordmark near the top.
+
+Main headline:
+
+“Don’t just imagine it.
+Build it.”
+
+Supporting text:
+
+“Fix what’s broken. Build from scratch. Find the right materials, tools, and best prices — all in one place.”
+
+Create a large central prompt area:
+
+“What are we making today?”
+
+Allow:
+- text input
+- image upload button
+
+Around the input, place subtle workshop objects.
+
+Then show three main paths:
+
+FIX IT
+“Something needs fixing.”
+
+BUILD IT
+“Start something from scratch.”
+
+STUDIO
+“Models, materials & tools for designers.”
+
+Each path should feel interactive and visually different.
+
+--------------------------------------------------
+FIX IT MODE
+--------------------------------------------------
+
+Create a working demo flow.
+
+The user can:
+- describe what is broken
+- upload a photo
+
+Example:
+“Loose cabinet hinge”
+
+Then show a diagnosis result page.
+
+Example result:
+
+GOOD NEWS.
+THIS IS FIXABLE.
+
+Problem:
+Loose cabinet hinge
+
+Fixability:
+92%
+
+Difficulty:
+Easy
+
+Estimated time:
+15 minutes
+
+Then show:
+
+WHAT YOU NEED
+
+Example:
+- screwdriver
+- replacement hinge
+- screws
+
+Then:
+
+HOW TO FIX IT
+
+Step 1:
+Inspect the hinge
+
+Step 2:
+Remove damaged screws
+
+Step 3:
+Replace or tighten hinge
+
+Step 4:
+Test alignment
+
+Use a visual step-by-step layout rather than large blocks of text.
+
+Add a button:
+“FIND THE PART”
+
+For now, this can open a demo shopping comparison page.
+
+--------------------------------------------------
+BUILD IT MODE
+--------------------------------------------------
+
+Create a working demo flow.
+
+The user types something like:
+
+“I want to build a small wooden step.”
+
+Then show a generated-style project page.
+
+Header:
+
+YOUR BUILD
+Small Wooden Step
+
+Show a large visual diagram/image placeholder in the center.
+
+Around it use measurement annotations.
+
+Example:
+600 mm
+300 mm
+200 mm
+
+Then show:
+
+PROJECT OVERVIEW
+
+Difficulty:
+Beginner
+
+Estimated time:
+2.5 hours
+
+Estimated materials:
+8 items
+
+Then:
+
+MATERIALS
+
+Example:
+- pine board x3
+- wood screws x16
+- wood glue
+- primer
+- paint
+- sandpaper
+
+Then:
+
+TOOLS
+
+Example:
+- measuring tape
+- drill
+- saw
+- level
+- paint brush
+
+Separate these into:
+
+YOU NEED TO BUY
+
+and
+
+YOU MAY ALREADY HAVE
+
+Then show:
+
+BUILD PLAN
+
+01 Measure
+02 Cut
+03 Assemble
+04 Sand
+05 Prime
+06 Paint
+
+Each step should expand when clicked.
+
+--------------------------------------------------
+SHOPPING COMPARISON DEMO
+--------------------------------------------------
+
+Create a demo page that shows where materials could be purchased.
+
+This is only demo data for now.
+
+Example:
+
+FOAM BOARD 70 x 100
+
+Store A
+1.900 KD
+BEST PRICE
+
+Store B
+2.250 KD
+
+Store C
+2.500 KD
+
+Allow sorting by:
+- lowest price
+- best value
+- one-store convenience
+
+Also show:
+
+CHEAPEST PROJECT COMBINATION
+
+Example:
+
+Buy paint from Store A
+Buy cutting tools from Store B
+Buy wood from Store C
+
+Estimated total:
+14.750 KD
+
+Compare with:
+
+BUY EVERYTHING FROM ONE STORE
+
+Estimated total:
+17.300 KD
+
+Savings:
+2.550 KD
+
+Make this section highly visual.
+
+--------------------------------------------------
+STUDIO MODE
+--------------------------------------------------
+
+Create a dedicated architecture/design student flow.
+
+Show options such as:
+
+PHYSICAL MODEL
+
+PRESENTATION BOARD
+
+SITE MODEL
+
+MATERIAL SAMPLE
+
+FURNITURE PROTOTYPE
+
+Example flow:
+
+User chooses:
+
+PHYSICAL MODEL
+
+Then enters:
+
+Scale:
+1:100
+
+Project type:
+Two-floor house
+
+The website generates:
+
+YOUR MODEL KIT
+
+Materials:
+- foam board
+- grey board
+- acrylic sheet
+- balsa wood
+- cork
+- tracing paper
+- white glue
+- spray adhesive
+
+Tools:
+- cutting mat
+- craft knife
+- metal ruler
+- architecture scale
+- pencil
+
+Then show suggested use:
+
+Walls → 5mm foam board
+
+Windows → clear acrylic
+
+Landscape → cork
+
+Structure → balsa wood
+
+Also include a:
+
+PROJECT COST ESTIMATE
+
+and
+
+COMPARE MATERIAL PRICES
+
+button.
+
+--------------------------------------------------
+DESIGN OF PROJECT PAGES
+--------------------------------------------------
+
+Project result pages should look like a beautifully arranged workbench.
+
+Do not place everything inside identical rectangles.
+
+Use:
+- central project visual
+- floating material labels
+- arrows
+- measurements
+- paper sections
+- small stickers
+- tool illustrations
+- soft shadows
+
+The layout should feel intentionally creative and slightly asymmetrical.
+
+--------------------------------------------------
+NAVIGATION
+--------------------------------------------------
+
+Keep navigation simple.
+
+Include:
+Home
+Fix
+Build
+Studio
+Projects
+
+Do not make the navbar visually heavy.
+
+--------------------------------------------------
+MY PROJECTS
+--------------------------------------------------
+
+Create a simple saved-projects demo page.
+
+Example projects:
+- Small Wooden Step
+- Cabinet Hinge Repair
+- 1:100 House Model
+
+Each project should show:
+- type
+- progress
+- materials count
+- estimated cost
+
+Use the same soft workshop visual language.
+
+--------------------------------------------------
+RESPONSIVE DESIGN
+--------------------------------------------------
+
+The website must work properly on:
+- desktop
+- tablet
+- mobile
+
+On mobile, keep the creative feeling without overlapping content.
+
+--------------------------------------------------
+IMPORTANT
+--------------------------------------------------
+
+Do not overbuild the backend yet.
+
+For this stage:
+- make all pages functional
+- make all navigation functional
+- make all buttons work
+- make the forms work
+- use realistic demo data
+- use clean reusable components
+- keep the code organized so integrations can be added later
+
+Do not create fake payment flows or fake live store APIs.
+
+The main priority is:
+beautiful design + clear flow + working prototype.

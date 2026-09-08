@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Fix & Build"
+description = "A creative maker-studio web app that helps people diagnose repairs, plan builds, compare demo material prices, and organize architecture student projects."
+version = "1.0.0"
+id = "artifacts/fix-build"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18238
+
+[services.development]
+run = "pnpm --filter @workspace/fix-build run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/fix-build", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/fix-build/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18238"
+BASE_PATH = "/"
