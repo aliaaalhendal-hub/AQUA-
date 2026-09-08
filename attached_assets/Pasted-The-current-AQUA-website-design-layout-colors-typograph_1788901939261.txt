@@ -1,0 +1,285 @@
+The current AQUA website design, layout, colors, typography, pages, and functionality are good.
+
+DO NOT redesign the website.
+DO NOT change the current layout.
+DO NOT change the color palette.
+DO NOT change the typography.
+DO NOT remove or rebuild any existing feature.
+
+I ONLY want you to ADD REAL IMAGES throughout the existing website.
+
+IMPORTANT:
+The website currently feels too empty and illustrated.
+I want real photography integrated beautifully into the current design.
+
+Use high-quality REAL photographic images, not drawings, vectors, generated-looking illustrations, icons, or cartoon fish.
+
+---------------------------------------
+1. HOME PAGE
+---------------------------------------
+
+Add beautiful real aquarium/underwater photography to the homepage.
+
+Use a large immersive real aquarium image or underwater photograph as part of the hero experience.
+
+It should include:
+- real fish
+- real aquatic plants
+- real water
+- natural underwater lighting
+
+Keep the existing text readable.
+
+Do not turn it into a normal rectangular hero image.
+
+Blend the photography naturally into the current AQUA design using:
+- organic image masks
+- soft edges
+- large image areas
+- subtle overlays
+- overlapping typography where appropriate
+
+The website should immediately feel connected to a REAL aquarium.
+
+---------------------------------------
+2. EXPLORE PAGE
+---------------------------------------
+
+This page needs MUCH more photography.
+
+Every species must have a REAL photo.
+
+Add real photos for:
+- Betta
+- Guppy
+- Neon Tetra
+- Goldfish
+- Clownfish
+- Angelfish
+- Discus
+- Cleaner Shrimp
+- aquarium snails
+- Seahorse
+- Jellyfish
+- any other species currently included
+
+Make sure every image matches the EXACT species.
+
+Do not use one generic fish image for multiple animals.
+
+Make the Explore page feel like a visual aquarium gallery.
+
+Use different image sizes and placements rather than a boring uniform card grid.
+
+Some animals can have:
+- large landscape photographs
+- portrait photographs
+- circular or organic crops
+- close-up photography
+
+Keep the current soft AQUA style around the images.
+
+---------------------------------------
+3. ANIMAL PROFILE PAGES
+---------------------------------------
+
+VERY IMPORTANT:
+
+Every animal profile must have a LARGE REAL HERO PHOTO of that exact animal.
+
+For example:
+
+Cleaner Shrimp page
+→ show a real Cleaner Shrimp in a reef aquarium.
+
+Clownfish page
+→ show a real Clownfish.
+
+Betta page
+→ show a real Betta.
+
+Jellyfish page
+→ show real Jellyfish.
+
+The animal photograph should be one of the main visual elements of the page.
+
+Remove any existing cartoon/vector representation of the animal and replace it with photography.
+
+Keep all existing:
+- animal information
+- pricing
+- care information
+- habitat requirements
+- compatibility
+- Build Its Home functionality
+
+Only improve the imagery.
+
+---------------------------------------
+4. BUILD AN AQUARIUM
+---------------------------------------
+
+Add REAL aquarium inspiration images.
+
+When the user selects:
+
+FRESHWATER
+→ show a real freshwater aquarium.
+
+PLANTED
+→ show a beautiful real planted aquascape.
+
+SALTWATER
+→ show a real marine aquarium.
+
+REEF
+→ show a colorful real reef aquarium.
+
+Replace the current illustrated aquarium preview with real aquarium photography where possible.
+
+When selections change, the inspiration/preview image should also change appropriately.
+
+Example:
+
+River sand + plants
+→ show a natural planted freshwater aquarium.
+
+Coral + marine setup
+→ show a real reef aquarium.
+
+---------------------------------------
+5. BUILD ITS HOME
+---------------------------------------
+
+When the website creates a habitat for an animal, include a REAL visual example of what a suitable habitat can look like.
+
+Example:
+
+YOUR CLOWNFISH HOME
+
+Show a beautiful real saltwater/reef aquarium suitable for clownfish.
+
+Then display the equipment and requirements around/below the image.
+
+This helps the user visually understand what they are trying to build.
+
+---------------------------------------
+6. SHOP
+---------------------------------------
+
+Add real product images for:
+
+- aquarium tanks
+- filters
+- heaters
+- lights
+- substrate
+- aquarium plants
+- rocks
+- driftwood
+- coral/decor
+- water testing kits
+- fish food
+- aquarium tools
+
+Products should have actual photographic product images instead of icons or illustrations.
+
+Keep the existing price comparison functionality.
+
+---------------------------------------
+7. PRICE COMPARISON
+---------------------------------------
+
+Add small real product thumbnails beside each item being compared.
+
+Example:
+
+50L Aquarium
+[real aquarium photo]
+
+Filter
+[real filter photo]
+
+Heater
+[real heater photo]
+
+Food
+[real food/product photo]
+
+The prices and store comparison should remain unchanged.
+
+---------------------------------------
+8. MY AQUARIUM
+---------------------------------------
+
+Add a beautiful real aquarium image representing the user's saved aquarium.
+
+If their aquarium is freshwater, show freshwater imagery.
+
+If it is planted, show planted aquarium imagery.
+
+If it is saltwater/reef, show appropriate marine imagery.
+
+---------------------------------------
+IMAGE STYLE
+---------------------------------------
+
+The photography should feel:
+
+clean
+bright
+dreamy
+natural
+high quality
+modern
+immersive
+
+Prefer images with:
+- beautiful underwater lighting
+- clear water
+- natural colors
+- visible texture
+- strong close-up animal photography
+- premium aquarium photography
+
+Avoid:
+- cheesy stock photography
+- people holding fish
+- fishing images
+- dead fish
+- cartoon imagery
+- low-resolution images
+- watermarked images
+- repeated images
+
+---------------------------------------
+VERY IMPORTANT
+---------------------------------------
+
+Do NOT just add one or two images.
+
+I want photography integrated THROUGHOUT THE ENTIRE WEBSITE.
+
+The site should have a strong balance of:
+
+REAL PHOTOGRAPHY
++
+SOFT AQUA UI
++
+UNDERWATER MOTION
+
+Use real images as an important part of the visual storytelling.
+
+Do not put every image inside the same rectangular card.
+
+Use creative crops, large photography, overlapping layouts and immersive image sections.
+
+The final result should feel like browsing a beautiful modern digital aquarium.
+
+Again:
+
+KEEP THE CURRENT WEBSITE.
+KEEP THE CURRENT DESIGN.
+KEEP ALL CURRENT FUNCTIONALITY.
+
+ONLY ADD AND INTEGRATE BEAUTIFUL REAL IMAGES THROUGHOUT THE EXPERIENCE.
