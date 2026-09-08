@@ -10,6 +10,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: aqua
+    description: Verified aquarium care and Kuwait retailer data
 paths:
   /healthz:
     get:
@@ -24,6 +26,25 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /aqua/products:
+    get:
+      operationId: listAquaProducts
+      tags: [aqua]
+      summary: List current Kuwait aquarium products
+      description: Fetches current public listings from an authorized Kuwait aquarium retailer. Returns 503 rather than stale or invented prices when unavailable.
+      responses:
+        "200":
+          description: Current retailer listings
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AquaProductFeed"
+        "503":
+          description: Retailer feed unavailable
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiError"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +54,34 @@ components:
           type: string
       required:
         - status
+    ApiError:
+      type: object
+      properties:
+        error:
+          type: string
+      required: [error]
+    AquaProduct:
+      type: object
+      properties:
+        id: { type: string }
+        name: { type: string }
+        category: { type: string }
+        store: { type: string }
+        priceKwd: { type: number }
+        availability:
+          type: string
+          enum: [in_stock, out_of_stock, unknown]
+        listingUrl: { type: string, format: uri }
+      required: [id, name, category, store, priceKwd, availability, listingUrl]
+    AquaProductFeed:
+      type: object
+      properties:
+        products:
+          type: array
+          items:
+            $ref: "#/components/schemas/AquaProduct"
+        sourceName: { type: string }
+        sourceUrl: { type: string, format: uri }
+        fetchedAt: { type: string, format: date-time }
+      required: [products, sourceName, sourceUrl, fetchedAt]
 
