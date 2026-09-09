@@ -22,7 +22,7 @@ router.get("/aqua/products", async (req, res): Promise<void> => {
 });
 
 router.post("/aqua/checkout", async (req, res): Promise<void> => {
-  const origin = req.get("origin");
+  const origin = req.get("origin") || req.headers.origin || (req.get("referer") ? new URL(req.get("referer")!).origin : undefined);
   const returnPath = typeof req.body?.returnPath === "string" ? req.body.returnPath : "";
 
   if (!origin || !returnPath.startsWith("/") || returnPath.startsWith("//")) {
@@ -30,21 +30,34 @@ router.post("/aqua/checkout", async (req, res): Promise<void> => {
     return;
   }
 
+  const stripeKey = process.env.STRIPE_SECRET_KEY;
+
+  if (!stripeKey) {
+    req.log.warn("STRIPE_SECRET_KEY environment variable is not set");
+    res.status(502).json({ error: "Stripe is not configured. Please add STRIPE_SECRET_KEY in Render Environment Variables." });
+    return;
+  }
+
   try {
     const body = new URLSearchParams();
     body.set("mode", "payment");
-    body.set("line_items[0][price]", AQUA_TEST_PRICE_ID);
+    body.set("line_items[0][price_data][currency]", "usd");
+    body.set("line_items[0][price_data][product_data][name]", "AQUA Sample Item");
+    body.set("line_items[0][price_data][unit_amount]", "100");
     body.set("line_items[0][quantity]", "1");
     body.set("success_url", `${origin}${returnPath}?checkout=success`);
     body.set("cancel_url", `${origin}${returnPath}?checkout=cancelled`);
     body.set("metadata[aqua_test_checkout]", "true");
 
-    const connectors = new ReplitConnectors();
-    const response = await connectors.proxy("stripe", "/v1/checkout/sessions", {
+    const response = await fetch("https://api.stripe.com/v1/checkout/sessions", {
       method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Authorization": `Bearer ${stripeKey}`,
+      },
       body: body.toString(),
     });
+
     const session = await response.json() as { url?: string; error?: { message?: string } };
 
     if (!response.ok || !session.url) {
@@ -57,7 +70,7 @@ router.post("/aqua/checkout", async (req, res): Promise<void> => {
       { error: error instanceof Error ? error.message : "Unknown Stripe error" },
       "AQUA test checkout session creation failed",
     );
-    res.status(502).json({ error: "Stripe Checkout is temporarily unavailable." });
+    res.status(502).json({ error: error instanceof Error ? error.message : "Stripe Checkout is temporarily unavailable." });
   }
 });
 
